@@ -12,22 +12,21 @@ const styles = StyleSheet.create({
     right: 0,
     flex: 1,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   circle: {
-    backgroundColor: "#ff4136",
     width: screen.width / 2,
     height: screen.width / 2,
     borderRadius: screen.width / 2,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   circleCorrect: {
-    backgroundColor: "#28A125"
+    backgroundColor: "#28A125",
   },
   icon: {
-    width: screen.width / 3
-  }
+    width: screen.width / 3,
+  },
 });
 
 export const MyAlert = ({ correct, visible }) => {
@@ -36,7 +35,7 @@ export const MyAlert = ({ correct, visible }) => {
   const icon = correct
     ? require("../assets/check.png")
     : require("../assets/close.png");
-    console.log(icon);
+  console.log(icon);
   const circleStyles = [styles.circle];
 
   if (correct) {

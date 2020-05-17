@@ -9,19 +9,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     width: "46%",
-    marginTop: 20
+    marginTop: 20,
   },
   text: {
     color: "#fff",
     fontSize: 20,
-    textAlign: "center"
+    textAlign: "center",
   },
   buttonContainer: {
     flexDirection: "row",
     flexWrap: "wrap",
     marginTop: 20,
-    justifyContent: "space-between"
-  }
+    justifyContent: "space-between",
+  },
 });
 
 export const Button = ({ text, onPress = () => {} }) => (
